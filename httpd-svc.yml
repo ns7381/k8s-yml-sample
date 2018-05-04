@@ -8,5 +8,6 @@ spec:
     run: httpd
   ports:
   - protocol: TCP
+    nodePort: 30000
     port: 8881
     targetPort: 80
